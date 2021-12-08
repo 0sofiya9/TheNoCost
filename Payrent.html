@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Pay your Rent | thenocost</title>
+    <link rel="icon" type="image/x-icon" href="/Logo1.png">
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <a class="navbar-brand" href="/index.html"><img src="/TNClogo.png" alt="..." height="40px" width="80px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about.html">About</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/Payrent.html">Pay Rent</a>
+                        <a class="dropdown-item" href="/Suggestion.html">Suggestion</a>
+                        <div class="dropdown-divider"></div>
+                        <!-- <a class="dropdown-item" href="#">Support</a> -->
+                        <a class="dropdown-item" href="/upcoming.html">Upcoming Services</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact.html">Contact Us</a>
+                </li>
+
+            </ul>
+
+
+
+
+            <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
+            <!-- <div class="mx-2">
+                <button class="btn btn-outline-danger btn-sm  active" data-toggle="modal" data-target="#loginModal">Pay
+                    Rent
+                </button>
+            </div> -->
+        </div>
+    </nav>
+
+    <div class="container my-4">
+        <h2>Pay Your Rent</h2>
+
+
+        <!-- Form section -->
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-6">
+                <label for="Firstname4" class="form-label">First name</label>
+                <input type="text" class="form-control" id="Firstname4" placeholder="Owner first name (as per bank details)" required>
+            </div>
+            <div class="col-md-6">
+                <label for="Lastname4" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="Lastname4" placeholder="Owner last name (as per bank details)" required>
+            </div>
+
+            <div class="col-6">
+                <label for="Bankname" class="form-label">Bank name</label>
+                <input type="text" class="form-control" id="Bankname" placeholder="Owner Bank name" required>
+            </div>
+            <div class="col-6">
+                <label for="BankA/Cnumber" class="form-label">Bank Account Number</label>
+                <input type="number" class="form-control" id="BankA/Cnumber" placeholder="Owner Bank Account Number" required>
+            </div>
+            <div class="col-6">
+                <label for="BankIFSCcode" class="form-label">Bank IFSC code</label>
+                <input type="text" class="form-control" id="BankIFSCcode" placeholder="Owner Bank Account IFSC code" required>
+            </div>
+            <div class="col-md-6">
+                <label for="Mobile" class="form-label">Mobile Number</label>
+                <input type="number" class="form-control" id="Mobile" placeholder="Owner mobile" required>
+            </div>
+
+            <div class="col-12">
+                <label for="Address" class="form-label">Address</label>
+                <input type="text" class="form-control" id="Address" placeholder="Property Address" required>
+            </div>
+            <!-- <div class="col-6">
+                <label for="inputAddress2" class="form-label"> `</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Property name">
+            </div>
+            <div class="col-6">
+                <label for="inputAddress3" class="form-label"></label>
+                <input type="text" class="form-control" id="inputAddress3" placeholder="Location, Area">
+            </div>
+            <div class="col-6">
+                <label for="inputAddress4" class="form-label"></label>
+                <input type="text" class="form-control" id="inputAddress4" placeholder="Landmark">
+            </div> -->
+            <div class="col-md-6">
+                <label for="City" class="form-label">City</label>
+                <input type="text" class="form-control" id="City" placeholder="City" required>
+            </div>
+            <div class="col-md-4">
+                <label for="State" class="form-label">State</label>
+                <input type="text" class="form-control" id="State" placeholder="State" required>
+
+            </div>
+            <div class="col-md-2">
+                <label for="Pincode" class="form-label">Pincode</label>
+                <input type="number" class="form-control" id="Pincode" placeholder="123456" required>
+            </div>
+            <div class="col-md-3">
+                <label for="Propertytype" class="form-label">Property type</label>
+                <select id="Propertytype" class="form-select" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>Residential Flat</option>
+                    <option>Residential House</option>
+                    <option>Residential Bungalow</option>
+                    <option>Commercial</option>
+                    <option>Shop/Showroom</option>
+                    <option>Godown</option>
+                    <option>Industrial</option>
+                    <option>Agriculture</option>
+                    <option>Other</option>
+                </select>
+                <div class="invalid-feedback">
+                    Please select a Property type
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <label for="Rentmonth" class="form-label">Month details</label>
+                <input type="month" id="Rentmonth" name="Rentmonth" required>
+                <!-- <select id="inputrentmonth" class="form-select" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>January 2021</option>
+                    <option>Febuary 2021</option>
+                    <option>March 2021</option>
+                    <option>April 2021</option>
+                    <option>May 2021</option>
+                    <option>June 2021</option>
+                    <option>July 2021</option>
+                    <option>August 2021</option>
+                    <option>Septmber 2021</option>
+                    <option>October 2021</option>
+                    <option>November 2021</option>
+                    <option>December 2021</option>
+                </select> -->
+                <div class="invalid-feedback">
+                    Please select a Month detail
+                </div>
+            </div>
+            <div class="col-md-3">
+                <label for="RentAmount" class="form-label">Rent Amount</label>
+                <input type="number" class="form-control" id="RentAmount" placeholder="12345" required>
+            </div>
+            <div class="col-md-3">
+                <label for="Pancard" class="form-label">Your Pancard Number</label>
+                <input type="text" class="form-control" id="Pancard" placeholder="AAAAA1234A" required>
+            </div>
+            <div class="col-md-4">
+                <label for="Agreement" class="form-label">Upload Your Agreement(Optional)</label>
+                <input class="form-control" type="file" id="Agreement">
+            </div>
+            <!-- <div class="d-grid gap-2 col-1 mx-auto">
+                <button class="btn btn-primary" type="button">Button</button>
+            </div> -->
+            <br><br><br><br><br>
+            <div class="d-grid gap-8 col-12 mx-auto">
+                <button type="submit" class="btn btn-outline-danger mx-auto" style="width: 1115px;">Proceed to Pay Now</button>
+            </div>
+
+        </form>
+    </div>
+
+    <!-- Footer department -->
+    <footer class="container ">
+        <p class="float-right "><a href="# ">Back to top</a></p>
+        <p>Copyright © 2021-2022 | www.thenocost.com - All rights reserved · <a href="# ">Privacy</a> · <a href="# ">Terms</a></p>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js " integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js " integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 " crossorigin="anonymous "></script>
+    <script src="/Payrent.js "></script>
+
+</body>
+
+</html>
